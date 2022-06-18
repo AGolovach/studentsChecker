@@ -1,0 +1,71 @@
+.student-info-row {
+    margin-left: 52px;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    /*column-gap: 2px;*/
+}
+
+.students-table {
+    height: 100%;
+    max-height: 100%;
+    /*transition: max-height 0.2s ease 0s, height 0.2s ease 0s;*/
+    overflow: scroll;
+}
+
+.students-table-hidden {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.student-info-column {
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    /*row-gap: 2px;*/
+}
+
+.student-info-cell {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    word-break: break-word;
+    border: 1px solid #ececec;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ececec;
+}
+
+.cross-value-empty {
+    background: rgba(128, 128, 128, 0.48);
+}
+
+.cross-value-xs {
+    background: #95d795;
+}
+
+.cross-value-s {
+    background: #084708;
+}
+
+.cross-value-m {
+    background: #a06946;
+}
+
+.cross-value-l {
+    background: #924b2a;
+}
+
+.cross-value-xl {
+    background: #873916;
+}
+
+.cross-value-xxl {
+    background: #ff0000;
+}
